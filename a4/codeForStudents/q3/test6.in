@@ -1,0 +1,2 @@
+stdin dropfirst 3 allcaps doublewords count ! count H
+Hello World!!

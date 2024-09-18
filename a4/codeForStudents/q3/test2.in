@@ -1,0 +1,8 @@
+sample1.txt doublewords dropfirst 1 allcaps count !
+sample1.txt doublewords dropfirst 1 count ]] allcaps
+sample1.txt doublewords allcaps dropfirst 7 count ]
+sample1.txt doublewords allcaps count l dropfirst 000
+sample1.txt doublewords count ] dropfirst 9999 allcaps
+sample1.txt doublewords count ] allcaps dropfirst 2147483647
+sample1.txt dropfirst 1 doublewords allcaps count "
+sample1.txt dropfirst 1 doublewords count ; allcaps

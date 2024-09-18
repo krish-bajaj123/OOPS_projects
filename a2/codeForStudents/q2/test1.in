@@ -1,0 +1,12 @@
+create a
++infinity
+create b
+-infinity
++ a b
+* a b
+/ a b
+/ b a
+u -b
++ a b
+* a b
+/ a b

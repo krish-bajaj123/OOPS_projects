@@ -1,0 +1,18 @@
+create a
+-9999
+create b
+9999
+cretae c
+-99999
+* a c
++ a c
+/ a c
+/ c a
++ b c
+* b c
+/ b c
+/ c b
+u- a
+u- c
+u- b
+quit

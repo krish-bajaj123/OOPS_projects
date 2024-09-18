@@ -1,0 +1,25 @@
+c 0
+B 0
+B 0
+B 0
+B 0
+r 0 0 A
+r 0 0 b
+r 0 1 A
+r 0 1 ba 
+r 0 2 c
+r 0 2 D
+r 0 3 Egg
+r 0 3 F
+p 0
+D 0 2
+D 0 3
+p 0
+B 0
+r 0 4 Grape
+r 0 4 has
+F 0 2
+b 0
+p 0
+F 0 1
+d 0

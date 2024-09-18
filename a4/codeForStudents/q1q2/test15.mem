@@ -1,0 +1,70 @@
+==187952== Memcheck, a memory error detector
+==187952== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==187952== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==187952== Command: ./a4q1
+==187952== 
+==187952== Invalid read of size 8
+==187952==    at 0x10B26E: Grid::toggle(int, int) (in /u0/k2bajaj/cs246/w24/a4/codeForStudents/q1q2/a4q1)
+==187952==    by 0x10A79A: main (in /u0/k2bajaj/cs246/w24/a4/codeForStudents/q1q2/a4q1)
+==187952==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==187952== 
+==187952== 
+==187952== Process terminating with default action of signal 11 (SIGSEGV)
+==187952==  Access not within mapped region at address 0x0
+==187952==    at 0x10B26E: Grid::toggle(int, int) (in /u0/k2bajaj/cs246/w24/a4/codeForStudents/q1q2/a4q1)
+==187952==    by 0x10A79A: main (in /u0/k2bajaj/cs246/w24/a4/codeForStudents/q1q2/a4q1)
+==187952==  If you believe this happened as a result of a stack
+==187952==  overflow in your program's main thread (unlikely but
+==187952==  possible), you can try to increase the size of the
+==187952==  main thread stack using the --main-stacksize= flag.
+==187952==  The main thread stack size used in this run was 16777216.
+==187952== 
+==187952== HEAP SUMMARY:
+==187952==     in use at exit: 86,056 bytes in 4 blocks
+==187952==   total heap usage: 4 allocs, 0 frees, 86,056 bytes allocated
+==187952== 
+==187952== 40 bytes in 1 blocks are still reachable in loss record 1 of 4
+==187952==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187952==    by 0x10B4BF: Grid::init(int) (in /u0/k2bajaj/cs246/w24/a4/codeForStudents/q1q2/a4q1)
+==187952==    by 0x10A7F8: main (in /u0/k2bajaj/cs246/w24/a4/codeForStudents/q1q2/a4q1)
+==187952== 
+==187952== 4,096 bytes in 1 blocks are still reachable in loss record 2 of 4
+==187952==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187952==    by 0x4B94BA3: _IO_file_doallocate (filedoalloc.c:101)
+==187952==    by 0x4BA3CDF: _IO_doallocbuf (genops.c:347)
+==187952==    by 0x4BA2F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==187952==    by 0x4BA16D4: _IO_new_file_xsputn (fileops.c:1243)
+==187952==    by 0x4BA16D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==187952==    by 0x4B95FD6: fwrite (iofwrite.c:39)
+==187952==    by 0x49C0507: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+==187952==    by 0x49CE8E9: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+==187952==    by 0x10A6D9: main (in /u0/k2bajaj/cs246/w24/a4/codeForStudents/q1q2/a4q1)
+==187952== 
+==187952== 8,192 bytes in 1 blocks are still reachable in loss record 3 of 4
+==187952==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187952==    by 0x4B94BF4: _IO_file_doallocate (filedoalloc.c:101)
+==187952==    by 0x4BA3CDF: _IO_doallocbuf (genops.c:347)
+==187952==    by 0x4BA2CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+==187952==    by 0x4BA3D95: _IO_default_uflow (genops.c:362)
+==187952==    by 0x49A2F50: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+==187952==    by 0x49B1175: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+==187952==    by 0x4956DD6: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+==187952==    by 0x10A642: main (in /u0/k2bajaj/cs246/w24/a4/codeForStudents/q1q2/a4q1)
+==187952== 
+==187952== 73,728 bytes in 1 blocks are still reachable in loss record 4 of 4
+==187952==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187952==    by 0x4938371: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.32)
+==187952==    by 0x400647D: call_init.part.0 (dl-init.c:70)
+==187952==    by 0x4006567: call_init (dl-init.c:33)
+==187952==    by 0x4006567: _dl_init (dl-init.c:117)
+==187952==    by 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+==187952== 
+==187952== LEAK SUMMARY:
+==187952==    definitely lost: 0 bytes in 0 blocks
+==187952==    indirectly lost: 0 bytes in 0 blocks
+==187952==      possibly lost: 0 bytes in 0 blocks
+==187952==    still reachable: 86,056 bytes in 4 blocks
+==187952==         suppressed: 0 bytes in 0 blocks
+==187952== 
+==187952== For lists of detected and suppressed errors, rerun with: -s
+==187952== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

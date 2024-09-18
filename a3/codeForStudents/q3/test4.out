@@ -1,0 +1,26 @@
+Library:
+	(S1:, "Mood Swinhs", "Moon", "Pop Smoke", 183, "Pop + Rap")
+	(S2:, "Cars", "funky", "Childish Gambino", 167, "Rap")
+	(S:, "Peaches", "Honest", "Justin Bieber", 189, "Pop")
+	(TV02, "NBC" S13E12 "Big Bang Theory", 10000)
+	(TV1:, "NBC" S1E2 "Somewhere far away", 158)
+	(TV:, "HBO" S10E3 "Two an a half men", 2587)
+Playlist[0]:
+	1: (S1:, "Mood Swinhs", "Moon", "Pop Smoke", 183, "Pop + Rap")
+	2: (S2:, "Cars", "funky", "Childish Gambino", 167, "Rap")
+	3: (S:, "Peaches", "Honest", "Justin Bieber", 189, "Pop")
+Total: 539 seconds
+Playlist[1]:
+	1: (TV1:, "NBC" S1E2 "Somewhere far away", 158)
+	2: (TV:, "HBO" S10E3 "Two an a half men", 2587)
+Total: 2745 seconds
+(S1:, "Mood Swinhs", "Moon", "Pop Smoke", 183, "Pop + Rap") 183/539
+(S2:, "Cars", "funky", "Childish Gambino", 167, "Rap") 350/539
+Playlist[0]:
+Total: 0 seconds
+(TV1:, "NBC" S1E2 "Somewhere far away", 158) 158/2745
+(TV:, "HBO" S10E3 "Two an a half men", 2587) 2745/2745
+Playlist[1]:
+	1: (TV1:, "NBC" S1E2 "Somewhere far away", 158)
+Total: 158 seconds
+(TV1:, "NBC" S1E2 "Somewhere far away", 158) 158/158

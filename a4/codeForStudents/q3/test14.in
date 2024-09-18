@@ -1,0 +1,11 @@
+sample1.txt count ] allcaps
+sample1.txt count ] doublewords
+sample1.txt dropfirst 7 count ]
+sample1.txt dropfirst 7 allcaps
+sample1.txt dropfirst 7 doublewords
+sample1.txt allcaps dropfirst 7
+sample1.txt allcaps count ]
+sample1.txt allcaps doublewords
+sample1.txt doublewords allcaps
+sample1.txt doublewords dropfirst 7
+sample1.txt doublewords count ]

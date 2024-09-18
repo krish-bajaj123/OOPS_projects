@@ -1,0 +1,26 @@
+Dimensions: 50x60
+Number of rectangles: 3
+	[Red (0,0) 0x0]
+	[Blue (5,5) 10x15]
+	[Green (20,20) 30x40]
+Dimensions: 50x60
+Number of rectangles: 2
+	[Blue (5,5) 10x15]
+	[Green (20,20) 30x40]
+Dimensions: 110x120
+Number of rectangles: 3
+	[Blue (5,5) 10x15]
+	[Green (20,20) 30x40]
+	[Orange (50,50) 60x70]
+Dimensions: 110x120
+Number of rectangles: 3
+	[Blue (5,5) 10x15]
+	[Red (20,20) 30x40]
+	[Orange (50,50) 60x70]
+Dimensions: 140x155
+Number of rectangles: 3
+	[Red (5,5) 10x15]
+	[Red (25,30) 30x40]
+	[Orange (50,50) 90x105]
+Dimensions: 0x0
+Number of rectangles: 0

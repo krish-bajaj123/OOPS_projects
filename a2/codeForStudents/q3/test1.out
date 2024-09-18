@@ -1,0 +1,24 @@
+Dimensions: 130x130
+Number of rectangles: 2
+	[Red (10,20) 30x40]
+	[Blue (50,60) 70x80]
+Dimensions: 50x50
+Number of rectangles: 1
+	[Green (10,20) 30x40]
+[Red (10,20) 30x40]
+[Blue (50,60) 70x80]
+[Green (10,20) 30x40]
+Dimensions: 130x130
+Number of rectangles: 1
+	[Blue (50,60) 70x80]
+temporary canvas
+Dimensions: 30x30
+Number of rectangles: 1
+	[Blue (0,20) 10x30]
+Dimensions: 300x310
+Number of rectangles: 1
+	[Yellow (150,160) 140x160]
+Dimensions: 30x35
+Number of rectangles: 2
+	[Yellow (20,20) 5x15]
+	[Blue (0,20) 10x30]

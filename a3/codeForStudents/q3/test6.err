@@ -1,0 +1,9 @@
+key has length < 1
+title has length < 1
+duration < 1
+artist has length < 1
+album has length < 1
+genre has length < 1
+duration < 1
+season < 1
+episode < 1

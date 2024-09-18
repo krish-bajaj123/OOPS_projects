@@ -1,0 +1,9 @@
+sample1.txt dropfirst 2
+sample1.txt doublewords
+sample.txt allcaps
+sample1.txt count l
+sample1.txt dropfirst "
+sample1.txt count " "
+sample1.txt count "
+sample1.txt count rr
+sample1.txt count ] dropfirst 7

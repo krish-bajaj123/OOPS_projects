@@ -1,0 +1,10 @@
+sample1.txt allcaps dropfirst 8 doublewords count l
+sample1.txt allcaps dropfirst 199 count l doublewords
+sample1.txt allcaps count l doublewords dropfirst 1
+sample1.txt allcaps count l dropfirst 1 doublewords
+sample1.txt count l doublewords dropfirst 1 allcaps
+sample1.txt count l doublewords allcaps dropfirst 1
+sample1.txt count ] dropfirst 1 doublewords allcaps
+sample1.txt count ] dropfirst 1 allcaps doublewords
+sample1.txt count ] allcaps doublewords dropfirst 1
+sample1.txt count ] allcaps dropfirst 1 doublewords

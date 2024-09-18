@@ -1,0 +1,15 @@
+a 0 g 0 0 0 0
+a 1 b 30 40 70 80
+p c 0
+p c 1
+c c 1
+p c 0
+p c 1
+= m 2
+p c 0
+p c 1
+p c 2
+r 2 0
+p c 2
+e 2
+p c 2

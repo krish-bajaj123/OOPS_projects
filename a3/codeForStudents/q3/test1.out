@@ -1,0 +1,25 @@
+Library:
+	(S01, "Great beat and you can dance to it", "I'd give it a 10!", "Too cool", 183, "Eclectic")
+	(S02, "Is jive still cool?", "Trying to be funky", "Cooler than thou", 167, "dance")
+	(S99, "dance dance dance", "album 3", "base10", 87, "surf punk")
+	(TV01, "Amazing New Show" S1E1 "Somewhere far away, and long ago", 2580)
+	(TV02, "Amazing New Show" S2E1 "Further away, and longer ago", 2585)
+	(TV99, "Amazing newish show" S10E3 "Somewhere not so far away and less long ago", 2587)
+Playlist[0]:
+	1: (S01, "Great beat and you can dance to it", "I'd give it a 10!", "Too cool", 183, "Eclectic")
+	2: (S02, "Is jive still cool?", "Trying to be funky", "Cooler than thou", 167, "dance")
+	3: (S99, "dance dance dance", "album 3", "base10", 87, "surf punk")
+Total: 437 seconds
+Playlist[1]:
+	1: (TV01, "Amazing New Show" S1E1 "Somewhere far away, and long ago", 2580)
+	2: (TV02, "Amazing New Show" S2E1 "Further away, and longer ago", 2585)
+	3: (TV99, "Amazing newish show" S10E3 "Somewhere not so far away and less long ago", 2587)
+Total: 7752 seconds
+(S01, "Great beat and you can dance to it", "I'd give it a 10!", "Too cool", 183, "Eclectic") 183/437
+(S02, "Is jive still cool?", "Trying to be funky", "Cooler than thou", 167, "dance") 350/437
+(S99, "dance dance dance", "album 3", "base10", 87, "surf punk") 437/437
+(S01, "Great beat and you can dance to it", "I'd give it a 10!", "Too cool", 183, "Eclectic") 183/437
+(TV01, "Amazing New Show" S1E1 "Somewhere far away, and long ago", 2580) 2580/7752
+(TV02, "Amazing New Show" S2E1 "Further away, and longer ago", 2585) 5165/7752
+(TV02, "Amazing New Show" S2E1 "Further away, and longer ago", 2585) 2585/5172
+(TV99, "Amazing newish show" S10E3 "Somewhere not so far away and less long ago", 2587) 5172/5172

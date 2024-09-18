@@ -1,0 +1,42 @@
+s
+S99
+dance dance dance
+87
+base10
+album 3
+surf punk
+t
+TV99
+Somewhere not so far away and less long ago
+2587
+10
+3
+Amazing newish show
+t
+TV01
+Somewhere far away, and long ago
+2580
+1
+1
+Amazing New Show
+t
+TV02
+Further away, and longer ago
+2585
+2
+1
+Amazing New Show
+s
+S01
+Great beat and you can dance to it
+183
+Too cool
+I'd give it a 10!
+Eclectic
+s
+S02
+Is jive still cool?
+167
+Cooler than thou
+Trying to be funky
+dance

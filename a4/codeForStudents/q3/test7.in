@@ -1,0 +1,3 @@
+stdin count a count b count c
+aaaa bbb cc bbbb
+dropfirst 3 allcaps doublewords

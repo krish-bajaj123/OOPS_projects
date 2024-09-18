@@ -1,0 +1,20 @@
+r 0
+1B,101,King St.,North,Waterloo
+c 0 1
+r 1
+1C,101,King St.,North,Waterloo
+c 0 1
+c 1 0
+p 0
+p 1
+p 2
+c 0 2
+c 1 2
+r 3
+1B,101,King St.,None,Waterloo     
+p 3
+c 0 3
+p 2
+p 4
+c 2 3
+c 3 2

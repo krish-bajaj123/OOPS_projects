@@ -1,0 +1,19 @@
+create a
+undefined
+create b
+0
+create c
++infinity
++ a b
+* a b
+/ a b
+/ b a
++ a c
+* a c
+/ a c
+/ c a
+u- a
+u- b
++ b c
+/ b c
+/ c b

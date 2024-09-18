@@ -1,0 +1,16 @@
+create a
+undefined
+create b
+0
+create c
+-infinity
++ a c
+* a c
+/ a c
+/ c a
++ b c
+* b c
+/ b c
+/ c b
+u- c
+quit

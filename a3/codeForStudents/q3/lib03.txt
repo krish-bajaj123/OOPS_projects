@@ -1,0 +1,42 @@
+s
+S:
+Peaches
+189
+Justin Bieber
+Honest
+Pop
+t
+TV:
+Two an a half men
+2587
+10
+3
+HBO
+t
+TV1:
+Somewhere far away
+158
+1
+2
+NBC
+t
+TV02
+Big Bang Theory
+10000
+13
+12
+NBC
+s
+S1:
+Mood Swinhs
+183
+Pop Smoke
+Moon
+Pop + Rap
+s
+S2:
+Cars
+167
+Childish Gambino
+funky
+Rap

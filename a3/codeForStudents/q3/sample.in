@@ -1,0 +1,13 @@
+i lib01.txt
+p m
+a p 0 S01
+a p 0 S02
+a p 0 S98
+a p 0 S99
+p p 0
+a p 1 TV01
+a p 1 TV02
+a p 1 TV98
+a p 1 TV99
+p p 1
+p p 2

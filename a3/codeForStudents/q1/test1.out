@@ -1,0 +1,14 @@
+less
+less
+greater
+1B,101,King St.,North,Waterloo
+1C,101,King St.,North,Waterloo
+,200,University Avenue,West,Waterloo
+less
+less
+1B,101,King St.,,Waterloo     
+less
+,200,University Avenue,West,Waterloo
+,200,University Avenue,West,Waterloo
+less
+greater

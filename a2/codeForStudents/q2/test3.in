@@ -1,0 +1,19 @@
+create a
+2147483647
+create b
+-2147483648
+create c
++infinity
+create d
+-infinity
++ a b
+* a b
+/ a b
+/ b a
++ a c
+* a c
+/ a c
++ b c
+* b c
+u- b
+u- a

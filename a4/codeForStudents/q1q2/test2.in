@@ -1,0 +1,7 @@
+new 5
+init
+0 0
+-1 -1
+switch 0 0
+game 1
+switch 0 0

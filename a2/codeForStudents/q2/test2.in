@@ -1,0 +1,18 @@
+create 
+a
++infinity
+create 
+b 5
+create 
+c -infinity
++ a b
+*
+ab
+/ a b
+/
+b a
++ b c
+* b c
+/ b c
+/ c b
+quit
